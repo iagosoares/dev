@@ -75,6 +75,7 @@ function mostrarRaca(array) {
 
     let maiorA = 0;
     let menorA = 0;
+
     for (let i = 0; i < tipoA.length; i++) {
         if (tipoA[i] > maiorA) {
             maiorA = tipoA[i]
@@ -86,6 +87,7 @@ function mostrarRaca(array) {
 
     let maiorB = 0;
     let menorB = 0;
+    
     for (let i = 0; i < tipoB.length; i++) {
         if (tipoB[i] > maiorB) {
             maiorB = tipoB[i]
