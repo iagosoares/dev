@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Syne+Mono&display=swap');
+
+* {
+    font-family: 'Nerko One', cursive;
+    font-family: 'Syne Mono', monospace;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#container-main{
+    margin-top: 2em;       
+    width: 600px;
+    height: 600px;
+    
+    
+}
+
+h1{
+    color: white;
+}
+
+.relatorio{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    border-radius: 1em 0.8em;
+    
+}
+
+
+#div-head{
+    text-align: center;
+    width: 100%;
+    min-height: 50px;    
+    
+
+}
+
+#div-texto{
+    display: flex;
+    justify-content: space-between;    
+    min-height: 500px;
+    flex-direction: column;
+ 
+
+}
+
+
+
+#div-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px; 
+    
+    
+}
+
+
+.texto{
+    color: white;
+    padding: 10px;
+    min-height: 250px;
+    text-align: left;    
+    font-size: 1.5em;
+}
+
+#botao{
+    
+    color: green;
+    font-size: 1.2em;
+    cursor: pointer;    
+    width: 60%;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 35px 5px;
+    border: 1px solid brown;
+    
+    
+}
+
+#botao:hover{
+    color: white;
+    
+    transition: 1s;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: rgb(29, 65, 29);
+    
+
+}
