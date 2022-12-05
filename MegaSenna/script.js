@@ -1,7 +1,5 @@
 var lista = [];
 
-
-
 for (let i = 1; i <= 60; i++) {
     lista.push(i);
 
@@ -19,19 +17,17 @@ var btn = document.getElementById('btn')
 
     btn.addEventListener("click", ()=>{
         NumberSelect()
-        btn.innerHTML = 'RESET'
+        
     })
 
+function NumberSelect() { 
 
-
-
-function NumberSelect() {     
     let itensRandom = []
     var elementos = document.querySelectorAll('p')
 
     for (let i = 0; i <= 5; i++) {
         let x = Math.floor((Math.random() * 60) + 1)
-        itensRandom.push(x)
+        itensRandom.push(x);
     }
 
     itensRandom.forEach(function (item) {
@@ -41,9 +37,7 @@ function NumberSelect() {
         // 0 - 59 index do elemento p vão de 0 a 59, por isso item recebe -1
 
     })
-
     
-
 }
 
 
