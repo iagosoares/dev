@@ -17,12 +17,10 @@ function gerar() {
     let array = [];
 
 
-
-
     while (qnt < 5) {
         let boi = new Bovinos();
         let raca = getRandomInt(1, 3);
-        let kg = getRandomInt(1, 1001);
+        let kg = getRandomInt(400, 1500);
 
         if (raca == 1) {
             boi.raca = 1;
@@ -37,8 +35,6 @@ function gerar() {
         }
 
         qnt++;
-
-
 
     }
 
@@ -132,6 +128,8 @@ function mostrarRaca(array) {
     } else {
         relatorio2.innerText = 'Não existe bovinos da raça 2.'
     }
+
+    console.log(array)
 
 
 }
